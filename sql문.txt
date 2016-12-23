@@ -1,0 +1,55 @@
+CREATE TABLE auth(
+	no integer NOT NULL auto_increment,
+	auth_id varchar(20),
+	password varchar(20),
+	name varchar(20),
+	email varchar(30),
+	good1 integer,
+	good2 integer,
+	good3 integer,
+	good4 integer,
+	good5 integer,
+	good6 integer,
+	good7 integer,
+	good8 integer,
+	good9 integer,
+	good10 integer,
+	good11 integer,
+	good12 integer,
+	good13 integer,
+	good14 integer,
+	good15 integer,
+	good16 integer,
+	primary key (no)
+);
+CREATE TABLE info(
+   no integer NOT NULL,
+   name varchar(40),
+   image varchar(20),
+   location varchar(40),
+   menu1 varchar(20),
+   menu2 varchar(20),
+   menu3 varchar(20),
+   menu4 varchar(20),
+   menu5 varchar(20),
+   phone varchar(20),
+   grade integer,
+   primary key (no)
+);
+
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('1', '오븐에 빠진 닭', 'oven', '공릉동 745 동신아파트 102동 상가 202호', '오리지널 로스트 14900원', '크리스피 베이크 15900원', '갈릭 크리스피 베이크 16900원', '반반세트(베이크1/2+양념1/2) 19900원', '꼴까닭 16900원', '050-6271-4699', 50);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('2', '용문각', 'yongmoon', '공릉동 415-62', '탕수육+짜장1+군만두(4pc) 13000원', '탕수육+짜장1+짬뽕1+군만두(4pc) 16000dnjs', '탕수육+쟁반짜장2인+군만두(4pc) 17000원', '양장피+짜장2 23000원', '탕볶밥 7000원', '050-6115-1905', 80);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('3', '피자꾼', 'piggoon', '공릉동 715 라이프 아파트 3단지 상가', 'New 와구와구 23500원', '쓰리스타 21000원', '시골갈비 18000원', '럭키세븐치즈 18000원', '허쉬포테이토 21000원', '050-7996-7010', 70);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('4', '미스터 피자', 'mipi', '공릉동 386-1', '보너스파우치 하프앤하프 32900원', '포테이토골드 25900원', '하프앤하프 26900원', '쉬림프골드 26900원', '로맨틱콤보 25000원', '050-4994-7556', 20);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('5', '자담치킨', 'jadam', '공릉동 379-9 신대림아파트 101-2호', '핫후라이드치킨 16000원', '간장후라이드치킨 17000원', '후라이드 16000원', '양념치킨 17000원', '순살치킨 16000원', '050-6115-3999', 40);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('6', '피자 알볼로', 'pialbolo', '공릉동 362-1 1층', '춘천시담양군피자 31000원', '대한민국만세피자 31000원', '꿈을피자 21000원', '웃음꽃피자 24000원', '어깨피자 27000원', '050-4829-9174', 105);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('7', '공덕관', 'gongduck', '공릉동 393-15', '탕수육+짜장2 15000원', '탕수육+짜장+짬뽕 16000원', '탕수육+쟁반짜장1 15000원', '탕수육+쟁반짜장2 17000원', '깐풍기+짜장2 25000원', '050-4826-3700', 120);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('8', '미코 돈가스', 'miko', '공릉동 208-24 1층', '로스 돈가스 7500원', '히레 돈가스 8000원', '치즈 돈가스 8500원', '치킨 치즈 돈가스 8500원', '투게더 세트 16000원', '050-4824-8830', 80);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('9', '신가쯔', 'singa', '공릉동 513-55', '등심까스 6500원', '안심까스 7000원', '생선까스 7000원', '성북동돈까스 7000원', '돈까스비빔밥 7000원', '050-4822-6341', 15);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('10', '봉추 찜닭', 'bongchu', '공릉동 388-4', '봉추찜닭 20000원', '', '', '', '', '050-4824-5271', 76);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('11', '맘스터치', 'momz', '공릉동 440-16', '순살뿌치 9500원', '뿌치 10000원', '케이준 망고 통살버거 3700원', '할라피뇨통살버거 3700원', '싸이버거 3200원', '050-6210-7989', 54);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('12', '신전 떡볶이', 'sinjun', '공릉동 238-47', '떡볶이 2500원', '치즈떡볶이 3500원', '만두튀김 1500원', '오뎅튀김 1500원', '잡채말이 1500원', '050-4994-7604', 0);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('13', '롯데리아', 'lotte', '공릉동 388-3', '홈실속A 팩 19500원', '홈실속B 팩 22500원', 'AZ버거 9800원', 'AZ베이컨 7800원', 'NEW 한우불고기버거 6800원', '050-6457-6173', 25);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('14', '동대문 엽기 떡볶이', 'yubdduck', '공릉동 745 동신아파트 102동상가 2층 204호', '세트메뉴A 17000원', '세트메뉴B 19000원', '엽기떡볶이 14000원', '엽기오뎅 14000원', '엽기닭도리 24000원', '050-4823-6891', 104);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('15', '맛닭꼬', 'mat', '공릉동 441-25', '오리지날 현미베이크 10900원', '파파닭 현미베이크 12900원', '마누라 현미베이크 12900원', '오리지날 로스트 9900원', '데리갈릭 로스트 11900원',  '050-7996-8815',90);
+INSERT INTO info(no, name, image, location, menu1, menu2, menu3, menu4, menu5, phone, grade) VALUES ('16', '김밥킹', 'kimking', '공릉동 421-19 103호', '불닭크림치즈김밥 4300원', '김밥킹떡볶이 4300원', '불닭크림떡볶이 6800원', '치즈돈까스 8100원', '얼큰빨개뽕 6300원', '050-6457-4815', 15);
